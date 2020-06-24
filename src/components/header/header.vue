@@ -25,10 +25,11 @@ export default {
 </script>
 <template>
   <header class="header">
-    <h1>todos</h1>
+    <span class="header-span"><img class="header-img" src="../../../images/Logo_cropped_medium.png" /></span>
+    <p class="header">Enter a list of items below</p>
     <input
       class="new-todo"
-      placeholder="What needs to be done?"
+      placeholder="What do we need to buy?"
       :value="name"
       @input="handleChange"
       @keyup="handleSubmit"

@@ -1,0 +1,14 @@
+.header-span {
+ width: 100%
+}
+
+.header-img {
+    padding-top: 8px;
+    width:  90%;
+    height: auto;
+}
+
+.header {
+    font-size: 25px; 
+    text-align: center;
+}
